@@ -47,6 +47,9 @@ class Jkeyboard {
 
         targetEl.addEventListener('touchstart', (e) => {
             e.stopPropagation();
+            document.querySelectorAll('.jkeyboard').forEach((item) => {
+                item.classList.remove('in');
+            });
             this.container.classList.add('in');
         }, false);
 
