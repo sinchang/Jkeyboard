@@ -1,0 +1,32 @@
+{
+  "name": "Jkeyboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "WEBPACK_ENV=build webpack --progress",
+    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch",
+    "hmr": "webpack-dev-server --inline --hot"
+  },
+  "keywords": [
+    "keyboard",
+    "javascript"
+  ],
+  "author": "sinchang",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "babel": "6.3.13",
+    "babel-core": "6.1.18",
+    "babel-eslint": "5.0.0",
+    "babel-loader": "6.1.0",
+    "babel-plugin-add-module-exports": "0.1.2",
+    "babel-preset-es2015": "6.3.13",
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.3.0",
+    "postcss-loader": "^1.2.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "1.12.9"
+  }
+}

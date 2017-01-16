@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>手机版数字键盘</title>
+</head>
+<body>
+<input type="text" name="" id="text" style="font-size: 24px;border: 2px solid #ccc;margin: 10px auto;display:block">
+<script src="dist/Jkeyboard.min.js"></script>
+<script>
+    new Jkeyboard({
+        el: 'text',
+        decimal: 3,
+        callback: function(value) {
+            console.log(value);
+        }
+    });
+</script>
+</body>
+</html>
